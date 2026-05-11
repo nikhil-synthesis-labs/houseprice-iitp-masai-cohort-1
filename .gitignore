@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv/
+uv.lock.bak
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ML
+mlruns/
+wandb/
+*.pkl
+# NOTE: model/model.joblib is intentionally TRACKED for this demo (small, single-file).
+# In a real project, this folder would also be ignored and managed by DVC or Git LFS.
+
+# Data
+# NOTE: data/sample_houses.csv is intentionally TRACKED (tiny synthetic demo data).
+# Real datasets belong in DVC, not git.
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
