@@ -30,7 +30,7 @@ def predict_price(model, sqft, bedrooms, age, location_score):
 st.set_page_config(page_title="House Price Predictor", page_icon=":house:")
 
 # BUG #1 — "Hosue" typo. Filed as Issue #1 in ISSUES.md.
-st.title("Hosue Price Predictor")
+st.title("House Price Predictor")
 st.write("Estimate a house price from four basic inputs. Built on a linear regression model.")
 
 with st.sidebar:
